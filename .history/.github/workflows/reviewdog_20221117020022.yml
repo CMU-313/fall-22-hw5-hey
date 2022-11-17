@@ -11,3 +11,4 @@ jobs:
           reporter: github-pr-review
           checkstyle_config: "custom_checkstyle.xml"
 
+          - name: Checkstyle for Java
