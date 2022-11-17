@@ -61,7 +61,7 @@ jobs:
           force: true
 
   run_check_style:
-    on: [pull_request]
+  on: [pull_request]
     runs-on: ubuntu-latest
 
     steps: 
