@@ -38,7 +38,6 @@ Teedy is an open source, lightweight document management system for individuals 
 - [Bulk files importer](https://github.com/sismics/docs/tree/master/docs-importer) (single or scan mode)
 - Tested to one million documents
 
-
 # Native Installation
 
 ## Requirements
@@ -119,6 +118,19 @@ After successfully building Teedy from source, you can launch a Teedy instance b
 cd docs-web
 mvn jetty:run
 ```
+
+## Retire.js
+
+Command line scanner that can be used to scan a web app for use of vulnerable JavaScript libraries.
+
+## Installation Steps:
+
+```console
+npm install -g retire
+retire
+```
+
+You can add the `--jspath <path>` flag to scan for javascript files in a particular folder.
 
 **The default admin password is "admin". Don't forget to change it before going to production.**
 
