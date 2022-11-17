@@ -3,6 +3,6 @@ on: [pull_request]
 jobs:
   checkstyle:
     - name: Run java checkstyle
-    - uses: nikitasavinov/checkstyle-action@0.6.0
+    uses: nikitasavinov/checkstyle-action@0.6.0
 
 
