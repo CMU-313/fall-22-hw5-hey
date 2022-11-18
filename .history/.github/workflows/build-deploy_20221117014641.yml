@@ -60,7 +60,12 @@ jobs:
           branch: badges
           force: true
 
-  
+  run_check_style:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkstyle for Java
+        uses: dbelyaev/action-checkstyle@v0.6.1
 
 
 

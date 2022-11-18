@@ -1,0 +1,12 @@
+name: reviewdog
+on: [pull_request]
+jobs:
+  checkstyle:
+    name: check_style
+    runs-on: ubuntu-latest
+    steps:
+      - uses: dbelyaev/action-checkstyle@v0.6.1
+        with:
+          reporter: github-pr-review
+          checkstyle_config: "custom_checkstyle.xml"
+
